@@ -1,0 +1,8 @@
+network:
+  version: 2
+  ethernets:
+    enp7s0:
+      dhcp4: true
+      routes:
+        - to: 10.10.0.0/16
+          via: 10.0.0.50
